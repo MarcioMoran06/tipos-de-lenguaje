@@ -1,0 +1,24 @@
+def menu()
+  puts "Seleccione una opción:"
+  puts "1. Pizza"
+  puts "2. Hamburguesa"
+  puts "3. Sushi"
+  puts "4. Ensalada"
+
+  opcion = gets.chomp
+
+  case opcion
+  when "1"
+    puts "Ha seleccionado Pizza."
+  when "2"
+    puts "Ha seleccionado Hamburguesa."
+  when "3"
+    puts "Ha seleccionado Sushi."
+  when "4"
+    puts "Ha seleccionado Ensalada."
+  else
+    puts "Opción inválida."
+  end
+end
+
+menu()
