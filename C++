@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Seleccione una opción:" << endl;
+    cout << "1. Pizza" << endl;
+    cout << "2. Hamburguesa" << endl;
+    cout << "3. Sushi" << endl;
+    cout << "4. Ensalada" << endl;
+
+    int opcion;
+    cin >> opcion;
+
+    switch (opcion) {
+        case 1:
+            cout << "Ha seleccionado Pizza." << endl;
+            break;
+        case 2:
+            cout << "Ha seleccionado Hamburguesa." << endl;
+            break;
+        case 3:
+            cout << "Ha seleccionado Sushi." << endl;
+            break;
+        case 4:
+            cout << "Ha seleccionado Ensalada." << endl;
+            break;
+        default:
+            cout << "Opción inválida." << endl;
+    }
+
+    return 0;
+}
