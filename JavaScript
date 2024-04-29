@@ -1,0 +1,28 @@
+function menu() {
+    console.log("Seleccione una opción:");
+    console.log("1. Pizza");
+    console.log("2. Hamburguesa");
+    console.log("3. Sushi");
+    console.log("4. Ensalada");
+
+    var opcion = prompt("Ingrese el número de la opción deseada:");
+
+    switch (opcion) {
+        case "1":
+            console.log("Ha seleccionado Pizza.");
+            break;
+        case "2":
+            console.log("Ha seleccionado Hamburguesa.");
+            break;
+        case "3":
+            console.log("Ha seleccionado Sushi.");
+            break;
+        case "4":
+            console.log("Ha seleccionado Ensalada.");
+            break;
+        default:
+            console.log("Opción inválida.");
+    }
+}
+
+menu();
